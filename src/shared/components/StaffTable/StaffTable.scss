@@ -1,0 +1,23 @@
+
+.StaffTable {
+
+  &__table {
+    color: green;
+  }
+
+  &__head {
+
+    tr {
+
+      th {
+        padding: 20px;
+        border: 1px solid black;
+      }
+    }
+  }
+
+  &__count {
+    padding: 20px;
+    font-weight: bold;
+  }
+}

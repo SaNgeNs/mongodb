@@ -1,0 +1,19 @@
+
+.SearchField {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  align-items: center;
+  background: teal;
+  color: #000000;
+  width: 600px;
+
+  input {
+    margin: 0 20px;
+    height: 35px;
+  }
+
+  &__remove {
+    margin-left: 20px;
+  }
+}

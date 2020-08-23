@@ -1,0 +1,18 @@
+.TestPage {
+  color: black;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__department {
+    padding: 20px;
+    height: 150px;
+    width: 300px;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: red;
+    cursor: pointer;
+  }
+}

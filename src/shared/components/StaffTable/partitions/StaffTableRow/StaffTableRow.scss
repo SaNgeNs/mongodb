@@ -1,0 +1,13 @@
+
+.StaffTableRow {
+
+  td {
+    padding: 20px;
+    border: 1px solid black;
+  }
+
+  &__link {
+    color: blue;
+    cursor: pointer;
+  }
+}
